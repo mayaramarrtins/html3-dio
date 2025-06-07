@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Círculo Cromático - Colorepédia</title>
+    <link rel="shortcut icon" href="imagens/roda-de-cor.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+      
+        <header>
+            <div class="logo">
+                <img src="imagens/logo.png" width="200"/>
+                <img id="nome-do-site" src="imagens/nome-do-site.png" alt="Nome do site: Colorepédia">
+            </div>
+    <div class="bar"></div>
+    </header>
+
+    <main>
+
+
+        <div class="sidebar">
+            <h2 id="texto-menu"><a href="index.html">Círculo Cromático</a></h2>
+            <ul>
+                <li><a href="#criador">Criador do círculo Cromático</a></li>
+                <li><a href="#">Como utilizar o círculo Cromático</a></li>
+                <ul>
+                <li><a href="#complementares"> Cores Complementares</a></li>
+                <li><a href="#analogas"> Cores Análogas</a></li>
+                <li><a href="#triadicas"> Cores Triádicas</a></li>
+                <li><a href="#tetrades"> Cores Tétrades</a></li>
+                <li><a href="#monocromaticas"> Cores Monocromáticas</a></li>
+                </ul>
+                <li><a href="#referencias">Referências</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+
+            <h1 id="circulo-cromatico">Círculo cromático</h1>
+            <p>O Círculo Cromático é uma representação em círculo das cores percebidas pelo olho humano. Ele é composto por 12 cores: as três primárias, as três secundárias e as seis terciárias. Este instrumento um guia rápido de identificação das cores complementares, das análogas, das meio-complementares, e de outras combinações harmónicas possíveis. Ele nos ajuda a descobrir combinações, comparações, etc.</p>
+
+             <svg id="circulo-cromatico"  viewBox="-100 -100 200 200">
+      <g id="circle1" transform="rotate(-90)">
+        <path d="M0,0 L100,0 A100,100 0 0,1 86.6,50 Z" fill="#FF0000" /> 
+        <path d="M0,0 L86.6,50 A100,100 0 0,1 50,86.6 Z" fill="#FF581A"/>  
+        <path d="M0,0 L50,86.6 A100,100 0 0,1 0,100 Z" fill="#FFA500"/>
+        <path d="M0,0 L0,100 A100,100 0 0,1 -50,86.6 Z" fill="#FFC04D"/>
+        <path d="M0,0 L-50,86.6 A100,100 0 0,1 -86.6,50 Z" fill="#FFFF00"/>
+        <path d="M0,0 L-86.6,50 A100,100 0 0,1 -100,0 Z" fill="#9ACD32"/>
+        <path d="M0,0 L-100,0 A100,100 0 0,1 -86.6,-50 Z" fill="#008000"/>
+        <path d="M0,0 L-86.6,-50 A100,100 0 0,1 -50,-86.6 Z" fill="#0D98BA"/>
+        <path d="M0,0 L-50,-86.6 A100,100 0 0,1 0,-100 Z" fill="#0000FF"/>
+        <path d="M0,0 L0,-100 A100,100 0 0,1 50,-86.6 Z" fill="#483D8B"/>
+        <path d="M0,0 L50,-86.6 A100,100 0 0,1 86.6,-50 Z" fill="#4B0082"/>
+        <path d="M0,0 L86.6,-50 A100,100 0 0,1 100,0 Z" fill="#800080"/> 
+      </g>
+      <circle id="circle2" r="25" cx="0" cy="0" fill="white"/>
+      <circle id="circle3" r="50" cx="0" cy="0" fill="transparent" stroke="gray" stroke-width="1"/>
+      <circle id="circle4" r="75" cx="0" cy="0" fill="transparent" stroke="gray" stroke-width="1"/>
+    </svg>
+
+
+
+            <p>Classificação das cores que compõem o círculo cromático:</p>
+
+            <ul><li>Cores primárias: azul, vermelho e amarelo.</li></ul>
+
+            <ul><li>Cores secundárias (mistura de duas cores primarias): verde, laranja e roxo/violeta.</li></ul>
+
+            <ul><li>Cores terciárias (mistura de duas cores secundárias): vermelho-arroxeado, vermelho-alaranjado, amarelo-alaranjado, amarelo-esverdeado, azul-esverdeado, azul-arroxeado.</li></ul>
+
+            <figure>
+            
+            <img class="demonstrativo" src="imagens/primarias-secundarias-terciarias.png" alt="Exemplo de cores primarias, secundarias e terciarias.">
+
+            <figcaption>Exemplo de cores primarias, secundarias e terciarias.</figcaption>
+
+            </figure>
+
+
+            <p>A partir das 12 cores do círculo, além das cores branca e preta, uma infinita quantidade de cores pode ser formada, com diferentes tonalidades e saturações.</p>
+
+            <h1 id="criador">Criador do círculo cromático</h1>
+            <p>As experiências de Isaac Newton com luz e cor na década de 1660 levaram à criação do círculo cromático. Newton passou luz branca através de um prisma, dispersando-a no espectro de cores visíveis. Ele então organizou essas cores em um formato circular, estabelecendo uma relação sistemática entre elas. Essa disposição tornou-se fundamental nos campos da arte e do design, oferecendo uma ferramenta visual para entender e ensinar a teoria das cores, incluindo os conceitos de cores primárias, secundárias e complementares.</p>
+
+            <h1 id="como-utilizar">Como utilizar o círculo cromático</h1>
+
+            <p>O círculo facilita criação de combinações de cores para diferentes propósitos. Aqui estão algumas dessas combinações:</p>
+
+            <h3 id="complementares">Cores Complementares</h3>
+
+            <p>Cores complementares são as que estão opostas no circulo, por exemplo vermelho e verde. Por estarem em posições opostas, criam um grande contraste, fazendo que cada cor pareça mais vibrante e chame mais atenção.</p>
+
+            <figure>
+            
+            <img class="demonstrativo" src="imagens/complemntares.png" alt="Cores complementares">
+
+            <figcaption>São aquelas cores que estão na direção oposta na roda de cores. Neste caso: Vermelho e Azul.</figcaption>
+
+            </figure>
+
+
+            <h3 id="analogas">Cores Análogas</h3>
+            <p>Cores análogas são as que estão lado a lado no círculo cromático, como o azul, o azul-verde e o verde. Elas criam uma combinação mais harmônica aos olhos, fazendo com que nenhuma se destaque mais que outra, apenas combinem bem entre si.</p>
+
+            <figure>
+            
+            <img class="demonstrativo" src="imagens/analogas.png" alt="Cores análogas">
+
+            <figcaption>São aquelas cores que estão lado a lado na roda de cores. Neste caso: Três tons de azul.</figcaption>
+
+            </figure>
+
+
+            <h3 id="triadicas">Cores Triádicas</h3>
+            <p>Cores triádicas são as que estão em uma mesma distância no círculo, formando um triângulo equilátero.</p>
+
+
+            <figure>
+            
+            <img class="demonstrativo" src="imagens/triadicas.png" alt="Cores triádicas">
+
+            <figcaption>São aquelas cores que estão a uma mesma distância na roda de cores. Neste caso: Vermelho, Azul e Verde.</figcaption>
+
+            </figure>
+
+
+            <h3 id="tetrades">Cores Tétrades</h3>
+            <p>De maneira semelhante às triádicas, as cores tétrades são aquelas que formam um retângulo no círculo cromático.</p>
+
+             <figure>
+            
+            <img class="demonstrativo" src="imagens/tetrades.png" alt="Cores tétrades">
+
+            <figcaption>São aquelas cores que forma um retângulo na roda de cores. Neste caso: Vermelho, Verde, Azul e Roxo.</figcaption>
+
+            </figure>
+
+
+            <h3 id="monocromaticas">Cores Monocromáticas</h3>
+            <p>Por fim, combinações com cores monocromáticas são aquelas que possuem a mesma cor, podendo variar em tonalidades e saturações diferentes. Essa combinação permite criar uma relação sutil e elegante.</p>
+
+            <figure>
+            
+            <img class="demonstrativo" src="imagens/monocromatica.png" alt="Cores monocromáticas">
+
+            <figcaption>São aquelas cores que possuem a mesma cor, mudando a sua tonalidade.  Neste caso: Três tons de laranja.</figcaption>
+
+            </figure>
+
+
+            <h2 id="referencias">Referências</h2>
+
+            <blockquote>Furtado, André (2009). «Introdução a teoria das cores» (PDF). Disponível em: http://www.ufrgs.br/ufrgs/inicial</blockquote>
+
+            <blockquote> Círculo cromático. Disponível em: https://www.avmakers.com.br/blog/circulo-cromatico>. </blockquote>
+
+            <blockquote> CANVA. Color wheel - color theory and calculator | canva colors. Disponível em: https://www.canva.com/colors/color-wheel/. </blockquote>
+            
+            
+        </div>
+
+        <div class="anchors">
+            <h2>Neste Artigo</h2>
+            <ul>
+                <li><a href="index.html">Círculo Cromático</a></li>
+                <li><a href="#criador">Criador do Círculo Cromático</a></li>
+                <li><a href="#como-utilizar">Como utilizar o círculo cromático</a></li>
+                <li><a href="#complementares">Cores Complementares</a></li>
+                <li><a href="#analogas">Cores Análogas</a></li>
+                <li><a href="#triadicas">Cores Triádicas</a></li>
+                <li><a href="#monocromaticas">Cores Monocromáticas</a></li>
+                <li><a href="#referencias">Referências</a></li>
+            </ul>
+        </div>
+    </main>
+
+
+    <button onclick="topFunction()" id="meu-botao" title="Voltar ao topo."><img src="imagens/topo.png"></button>
+
+
+    
+    <footer>
+        <p id="cabecalho">Desenvolvido por <strong>Mayara Martins</strong> como desafio DIO. Inspirado na Wikipedia</p>
+    </footer>
+
+
+
+    <script>
+        
+let mybutton = document.getElementById("meu-botao");
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+    </script>
+    
+</body>
+</html>
